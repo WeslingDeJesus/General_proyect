@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTANOS</title>
+    <link rel="stylesheet" href="../Estilos/style_contacto.css">
+    <script src="https://kit.fontawesome.com/1f353f6dc9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+      <!--Region del top de la pagina-->
+      <header class="header">
+        <div class="topPage_container">
+            
+            <div class="img_header" id="logo_header">
+                <img src="../Imagenes/general-de-seguros.jpg" alt="">
+            </div>
+
+            <div class="img_header" id="certificates_header">
+                <img src="../Imagenes/Feller-RateA-.png" alt="">
+            </div>
+        </div>
+        <!--Final de Region-->
+
+        <!--Region Navegador-->
+        <div class="nav_container">
+            <nav class="nav">
+                <button class="button_nav" id="index"><a href="../index.html">INICIO</a></button>
+                <button class="button_nav" id="nosotros"><a href="nosotros.html">NOSOTROS</a></button>
+                <button class="button_nav" id="productos"><a href="productos.html">PRODUCTOS</a></button>
+                <button class="button_nav" id="noticias"><a href="noticias.html">NOTICIAS</a></button>
+                <button class="button_nav" id="reclamos"><a href="reclamos.html">RECLAMOS</a></button>
+                <button class="button_nav" id="contacto"><a href="contacto.html">CONTACTO</a></button>
+
+                <div class="redes-container_nav">
+                    <div class="instagram">
+                        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/generaldeseguros/%3Fhl%3Des&ved=2ahUKEwjF6Nfas_6GAxVaRjABHSzWB9oQjjh6BAgUEAE&usg=AOvVaw1iBz8N_RiHszDSWb-PyYYZ"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/company/general-de-seguros-s-a-"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Final de Region-->
+    </header>
+
+      <!-- Region de carrusel-->
+      <div class="container-section_carrusel">
+          <section class="section_carrusel">
+              <div class="carrusel">
+                  <div class="carrusel-inner">
+                      <img src="../Imagenes/great_place_work A-.jpg" alt="">
+                      <img src="../Imagenes/banner_renta_vitalicia.png" alt="">
+                      <img src="../Imagenes/GeralBanner.png" alt="">
+                      <img src="../Imagenes/AsistenciaBannerWEB.jpg" alt="">
+                      <img src="../Imagenes/BANNER40.jpg" alt="">
+                      <img src="../Imagenes/Nuevo Centro de Servicios.jpg" alt="">
+                      <img src="../Imagenes/12a7a905e81ee3337132c0eba95c1a81.jpg" alt="">
+                      <img src="../Imagenes/4fcce6c1a19bb11d4e2c490288aacc22.jpg" alt="">
+                      <img src="../Imagenes/3b4badfd3625a548e2b5bf3cf5468592.jpg" alt="">
+                      <img src="../Imagenes/e21fb092919e9894f0a616406d2a815c.png" alt="">
+                      <img src="../Imagenes/e3ba18fdba8c405ab7e1e7337cba6132.png" alt="">
+                      <div class="filter_blur_red"></div>
+                  </div>
+              </div> 
+          </section>
+      </div>
+      
+
+      <div class="container">
+        <div class="information">
+            <h2>Información</h2>
+            <p><strong>Dirección</strong></p>
+            <p>Oficina Principal: Av. Sarasota #39, Torre Sarasota Center, casi esq. Jimenez Moya, Bella Vista, Distrito Nacional, República Dominicana.</p>
+            
+            <div id="map" class="map"></div>
+        </div>
+    
+        <div class="contact-form">
+            <h2>Formulario de contacto</h2>
+            <p class="required-fields">Campos requeridos *</p>
+            
+            <form id="contactForm">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" required>
+    
+                <label for="apellidos">Apellidos *</label>
+                <input type="text" id="apellidos" required>
+    
+                <label for="cedula">Cédula *</label>
+                <input type="text" id="cedula" required>
+    
+                <label for="email">Email *</label>
+                <input type="email" id="email" required>
+    
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" required></textarea>
+    
+                <!-- Espacio para reCAPTCHA (comentar o activar según se necesite) -->
+                <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div> -->
+    
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </div>
+    </div>
+    
+
+              <!--Region de Pie de pagina-->
+   <div class="container_footer">
+    <footer class="footer">
+        <div class="contenedor-footer_principal">
+            <div class="contenedor-navegador_footer01">
+                <a href="../index.html">INICIO</a>
+                <a href="nosotros.html">NOSOTROS</a>
+                <a href="productos.html">PRODUCTOS</a>
+            </div>
+            <div class="contenedor-navegador_footer02">
+                <a href="noticias.html">NOTICIAS</a>
+                <a href="reclamos.html">RECLAMOS</a>
+                <a href="contacto.html">CONTACTO</a>
+            </div>
+
+                <div class="img_UAF">
+                    <a href="https://certificaciones.uaf.gob.do/certificaciones_so_view.php?editid1=17">
+                        <img src="../Imagenes/UAF00017IAG8.png" alt="">
+                    </a>
+                </div>
+        </div>
+
+        <div class="contenedor-footer_secundario">
+            <div class="footer_items">
+                <a id="footer_telefono" href="contacto.html"><i class="fas fa-phone"></i>(809) 535-8888</a>
+                <a id="footer_correo" href=""><i class="fas fa-envelope"></i>SEGUROS@GENERALDESEGUROS.COM.DO</a>
+                <a id="footer_trabajaConNosotros" href=""><i class="fas fa-people-group"></i>TRABAJA CON NOSOTROS</a>
+                <a id="footer_somosVerdes" href=""><i class="fas fa-leaf"></i>SOMOS VERDES</a>
+            </div>
+        </div>
+    </footer>
+</div>
+<!--Fin de Region-->
+          <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+          <script src="../Scripts/carrusel02.js"></script>
+          <script src="../Scripts/map_form.js"></script>
+</body>
+</html>
